@@ -20,9 +20,9 @@ body{
     display: flex;
     width: var(--sbw);
     justify-content: center;
-    background-color: peachpuff;
-    /* background-image: url(./img/giant_leaf.avif);
-    background-attachment: fixed; */
+    background-image: url(./img/giant_leaf.avif);
+    background-attachment: fixed;
+    background-size: contain;
 }
 
 .credit{
@@ -50,3 +50,5 @@ body{
 .footer{
     background-color: blue;
 }
+
+/* commit test */
