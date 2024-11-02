@@ -1,9 +1,52 @@
 body{
     margin: 0;
     padding: 0;
+    --sbw: 25vw;
 }
 
-.dummy{
+.underline{
+    text-decoration: underline;
+    white-space: pre;
+}
+
+.container{
     height: 100vh;
-    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.sidebar{
+    display: flex;
+    width: var(--sbw);
+    justify-content: center;
+    background-color: peachpuff;
+    /* background-image: url(./img/giant_leaf.avif);
+    background-attachment: fixed; */
+}
+
+.credit{
+    display: flex;
+    color: white;
+    align-self: flex-end;
+    margin: 1rem;
+}
+
+.form{
+    display: flex;
+    width: calc(100vw - var(--sbw));
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.header{
+    background-color: aliceblue;
+}
+
+.body{
+    background-color: aqua;
+}
+
+.footer{
+    background-color: blue;
 }
