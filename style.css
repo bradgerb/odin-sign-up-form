@@ -1,12 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    --sbw: 25vw;
+    --sbw: 33vw;
 }
 
 .underline{
     text-decoration: underline;
-    white-space: pre;
 }
 
 .container{
@@ -18,17 +17,26 @@ body{
 
 .sidebar{
     display: flex;
+    flex-direction: column;
     width: var(--sbw);
-    justify-content: center;
+    align-items: center;
+    justify-content: end;
     background-image: url(./img/giant_leaf.avif);
     background-attachment: fixed;
     background-size: contain;
 }
 
+.logo{
+    display: flex;
+    background-color: black;
+    opacity: .5;
+    width: var(--sbw);
+    color:white;
+}
+
 .credit{
     display: flex;
     color: white;
-    align-self: flex-end;
     margin: 1rem;
 }
 
