@@ -20,7 +20,7 @@ body{
     flex-direction: column;
     width: var(--sbw);
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
     background-image: url(./img/giant_leaf.avif);
     background-attachment: fixed;
     background-size: contain;
@@ -28,10 +28,20 @@ body{
 
 .logo{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
     background-color: black;
     opacity: .5;
     width: var(--sbw);
     color:white;
+    font-size: 100px;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.image{
+    display: flex;
 }
 
 .credit{
