@@ -44,6 +44,15 @@ body{
     display: flex;
 }
 
+@font-face {
+    font-family: Norse;
+    src: url(./font/Norse-Bold.otf);
+}
+
+.text{
+    font-family: Norse, Arial, Helvetica, sans-serif;
+}
+
 .credit{
     display: flex;
     color: white;
