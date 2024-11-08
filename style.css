@@ -4,7 +4,7 @@ body{
     --sbw: 33vw;
     --lightergrey: rgb(240, 240, 240);
     --login: #596D48;
-    --shadow: rgba(0, 0, 0, 0.26);
+    --shadow: rgba(0, 0, 0, 0.25);
 }
 
 .underline{
@@ -34,10 +34,10 @@ body{
     justify-content: center;
     align-items: center;
     align-self: center;
-    background-color: black;
-    opacity: .5;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* opacity: .5; */
     width: var(--sbw);
-    color:white;
+    color: white;
     font-size: 100px;
     margin: 0;
     padding: 1rem 0;
