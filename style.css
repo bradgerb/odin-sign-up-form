@@ -86,6 +86,12 @@ body{
     box-shadow: 0px 10px 5px 0px var(--shadow);
 }
 
+.form-text{
+    margin: 20px 50px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
 .footer{
     height: calc(100vh / 3);
 }
