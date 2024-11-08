@@ -5,6 +5,8 @@ body{
     --lightergrey: rgb(240, 240, 240);
     --login: #596D48;
     --shadow: rgba(0, 0, 0, 0.25);
+    --input-default: #E5E7EB;
+    --label-text: rgb(75, 75, 75);
 }
 
 .underline{
@@ -129,6 +131,17 @@ input{
     display: block;
     margin: 0px 50px 20px 0px;
     border-radius: 5px;
+    border-style: solid;
+    border-color: var(--input-default);
+    width: 15rem;
+    font-size: large;
+}
+
+label{
+    text-transform: uppercase;
+    font-size: x-small;
+    font-weight: bold;
+    color: var(--label-text);
 }
 
 .form-blocks{
