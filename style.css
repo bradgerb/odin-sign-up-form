@@ -65,7 +65,7 @@ body{
     width: calc(100vw - var(--sbw));
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aquamarine;
+    background-color: var(--lightergrey);
 }
 
 .header{
@@ -76,15 +76,14 @@ body{
     font-size: x-large;
     font-weight: bold;
     padding: 60px 150px 30px 30px;
-    background-color: var(--lightergrey);
 }
 
 .body{
     height: calc(100vh / 3);
-    background-color: red;
+    background-color: white;
+    box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.26);
 }
 
 .footer{
     height: calc(100vh / 3);
-    background-color: blue;
 }
