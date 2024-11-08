@@ -91,7 +91,7 @@ body{
 }
 
 .button{
-    margin: 50px 0px 30px 50px;
+    margin: 50px 0px 20px 50px;
     padding: 15px 40px;
     border-radius: 10px;
     border: none;
@@ -100,5 +100,15 @@ body{
     background-color: var(--login);
     font-weight: bold;
     font-size: large;
+}
 
+.footer-text{
+    margin-left: 50px;
+    font-size: large;
+}
+
+.link-style{
+    text-decoration: none;
+    color: var(--login);
+    font-weight: bold;
 }
