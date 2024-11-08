@@ -137,6 +137,15 @@ input{
     font-size: large;
 }
 
+input:invalid{
+    outline-color: red;
+}
+
+input:focus{
+    outline-color: blue;
+    box-shadow: 3px 3px 5px var(--shadow);
+}
+
 label{
     text-transform: uppercase;
     font-size: x-small;
