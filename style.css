@@ -35,7 +35,6 @@ body{
     align-items: center;
     align-self: center;
     background-color: rgba(0, 0, 0, 0.5);
-    /* opacity: .5; */
     width: var(--sbw);
     color: white;
     font-size: 100px;
@@ -73,11 +72,18 @@ body{
 .header{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     height: calc(100vh / 3);
     font-size: x-large;
     font-weight: bold;
-    padding: 60px 150px 30px 30px;
+}
+
+.header-text{
+    margin-left: 50px;
+}
+
+.header-end{
+    margin: 0px 0px 50px 50px;
 }
 
 .body{
@@ -117,4 +123,25 @@ body{
     text-decoration: none;
     color: var(--login);
     font-weight: bold;
+}
+
+input{
+    display: block;
+    margin: 0px 50px 20px 0px;
+    border-radius: 5px;
+}
+
+.form-blocks{
+    display: flex;
+    margin-left: 50px;
+}
+
+.form-block-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-block-2{
+    display: flex;
+    flex-direction: column;
 }
